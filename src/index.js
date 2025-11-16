@@ -1,3 +1,9 @@
 import "./styles.css";
+import { homeDom } from "./home";
+import pizzaImage from "./images/caption.jpg";
 
-alert("Hi");
+const homeButton = document.querySelector(".home-button");
+
+homeButton.addEventListener("click", () => {
+    homeDom();
+})
