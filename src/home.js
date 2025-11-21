@@ -11,6 +11,7 @@ function homeDom() {
     image.src = pizzaImage;
     image.classList.add("pizza");
 
+    content.style.display = "flex";
     content.appendChild(headingText);
     content.appendChild(image);
     content.appendChild(paraText);
